@@ -31,7 +31,7 @@ class AddressController extends Controller
         $address = DB::table('addresses')
             ->where('id','=',$id);
 
-        $count = $shop->count();
+        $count = $address->count();
 
         if($count === 1){
             $this->addData('address',$address->first());
