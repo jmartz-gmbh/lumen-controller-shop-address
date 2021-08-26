@@ -27,7 +27,7 @@ class AddressController extends Controller
      * @param  Request  $request
      * @return Response
      */
-    public function view(Request $request, int $id){
+    public function id(Request $request, int $id){
         $address = DB::table('addresses')
             ->where('id','=',$id);
 
