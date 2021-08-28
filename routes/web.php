@@ -4,10 +4,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/address/id/{id}', [
     'middleware' => [],
-    'uses' => 'App\Http\Controllers\AddressController@id'
+    'uses' => 'App\Http\Controllers\ShopAddressController@id'
 ]);
 
 Route::get('/addresses', [
     'middleware' => [],
-    'uses' => 'App\Http\Controllers\AddressController@all'
+    'uses' => 'App\Http\Controllers\ShopAddressController@all'
 ]);

@@ -6,7 +6,7 @@ use \http\Env\Response;
 use \Illuminate\Http\Request;
 use \Illuminate\Support\Facades\DB;
 
-class AddressController extends Controller
+class ShopAddressController extends Controller
 {
     /**
      * @param  Request  $request
